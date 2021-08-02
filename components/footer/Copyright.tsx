@@ -6,8 +6,8 @@ export const Copyright = () => {
     return (
         <div className="text-center">
             <p>
-                © {year} Ancene by <a href="#">ancene.org</a>. All rights
-                reserved.
+                © {year} Ancene by <a href="#">ancene organization</a>. All
+                rights reserved.
             </p>
         </div>
     );
