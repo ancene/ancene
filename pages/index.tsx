@@ -1,7 +1,6 @@
 import Head from "next/head";
 import { Content } from "../components/footer/Content";
 import { Copyright } from "../components/footer/Copyright";
-import { Nav } from "../components/header/Nav";
 
 export default function Home() {
     return (
@@ -14,10 +13,6 @@ export default function Home() {
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-
-            <header className="relative">
-                <Nav />
-            </header>
 
             <main className="flex flex-col">
                 <h1>Ancene</h1>
